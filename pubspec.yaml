@@ -1,0 +1,29 @@
+name: amazon_chime_flutter
+description: Demonstrates how to use the chime plugin.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  eggnstone_amazon_chime:
+    # When depending on this package from a real application you should use:
+    #   eggnstone_amazon_chime: ^x.y.z
+    # See https://dart.dev/tools/pub/dependencies#version-constraints
+    # The example app is bundled with the plugin so we use a path dependency on
+    # the parent directory to use the current plugin's version. 
+
+
+  device_info: ^2.0.0
+  http: ^0.13.0
+  permission_handler: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
